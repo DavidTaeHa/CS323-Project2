@@ -97,6 +97,12 @@ for i=1:count-1
     if i == 1
         hold on
     end
+    x = xvals(i);
+    y = yvals(i);
+    plot(x,y,".k");
 end
+x = xvals(count);
+y = yvals(count);
+plot(x,y,".k");
 hold off
 grid
