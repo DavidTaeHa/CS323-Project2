@@ -1,0 +1,2 @@
+The coefficients of the polynomial:
+   -0.2857    0.9286
